@@ -1,0 +1,87 @@
+{
+  "name": "jscamp-2019",
+  "description": "Chicago JSCamp 2019 Website",
+  "version": "1.0.0",
+  "author": "Peter Piekarczyk <peter@chicagojs.org>",
+  "dependencies": {
+    "cloudinary-microurl": "^1.4.0",
+    "gatsby": "^1.9.130",
+    "gatsby-link": "^1.6.31",
+    "gatsby-plugin-canonical-urls": "^1.0.18",
+    "gatsby-plugin-catch-links": "^1.0.14",
+    "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-manifest": "^1.0.10",
+    "gatsby-plugin-netlify": "^1.0.11",
+    "gatsby-plugin-offline": "^1.0.12",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-plugin-react-next": "^1.0.6",
+    "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-sharp": "^1.6.23",
+    "gatsby-plugin-sitemap": "^1.2.7",
+    "gatsby-source-filesystem": "^1.5.10",
+    "gatsby-transformer-json": "^1.0.20",
+    "gatsby-transformer-sharp": "^1.6.16",
+    "lodash.get": "^4.4.2",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "animate.css": "^3.5.2",
+    "babel-eslint": "^8.0.3",
+    "bootstrap": "^4.0.0",
+    "devicon-2.2": "^2.2.0",
+    "emergence.js": "^1.1.2",
+    "eslint": "^4.13.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "normalize.css": "^7.0.0",
+    "prettier": "^1.9.1",
+    "textlint": "^10.1.1",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-japanese": "^4.0.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatstrap",
+    "starter"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.css": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.scss": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "npm run lint:textfix",
+      "git add"
+    ]
+  },
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|scss)\"",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint:text": "textlint src/pages/**/index.md",
+    "lint:textfix": "textlint --fix src/pages/**/index.md",
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
