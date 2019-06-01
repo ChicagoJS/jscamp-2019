@@ -25,7 +25,7 @@ export default class HTML extends React.Component {
       <html {...this.props.htmlAttributes}>
         <head>
           <link
-            href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
             rel="stylesheet"
           />
           {this.props.headComponents}

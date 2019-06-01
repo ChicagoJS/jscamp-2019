@@ -19,7 +19,7 @@ export default class SpeakersPage extends React.Component {
         <Helmet title={`${siteMetadata.title} | Speakers`} />
         <div className="container">
           <div className="row text-center">
-            {speakers.map(speaker => <Speaker {...speaker} />)}
+            <p>The speakers will be released soon</p>
           </div>
         </div>
       </React.Fragment>

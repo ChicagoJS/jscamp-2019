@@ -13,7 +13,7 @@ const CONFIG = {
   date: 'September 14, 2019',
   city: 'Chicago, IL',
   images: {
-    hero: 'https://source.unsplash.com/Nyvq2juw4_o/1200x500',
+    hero: 'https://source.unsplash.com/uevmkfCH98Q/1200x600',
     featured: {
       featured1: 'https://source.unsplash.com/QbD-LmFZ-uk/300x500',
       featured2: 'https://source.unsplash.com/1nashFHSKaU/300x500',
@@ -82,8 +82,21 @@ export default class Layout extends React.Component {
     const isHome = location.pathname === '/'
     const siteMetadata = get(this.props, 'data.site.siteMetadata', {})
 
+    const mainStyles = {}
+    if (!isHome) {
+      // mainStyles.flex = 1
+    }
+
     return (
-      <React.Fragment>
+      <div
+        style={{
+          paddingTop: 84,
+          height: '100%',
+          // display: 'flex',
+          // flexDirection: 'column',
+          // justifyContent: 'space-between',
+        }}
+      >
         <Header
           title={siteMetadata.title}
           ticketLink={siteMetadata.ticketLink}
@@ -99,9 +112,11 @@ export default class Layout extends React.Component {
         ) : (
           <PageHeader {...getPageInfo(location.pathname)} />
         )}
-        <main class="container">{children()}</main>
+        <main style={mainStyles} class="container">
+          {children()}
+        </main>
         <Footer title={data.site.siteMetadata.title} />
-      </React.Fragment>
+      </div>
     )
   }
 }

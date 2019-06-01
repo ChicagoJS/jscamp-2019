@@ -12,13 +12,11 @@ export default class SchedulePage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Schedule`} />
-        {talks.map((talk, index, arr) => (
-          <ScheduleRow
-            key={index}
-            {...talk}
-            lastRow={index === arr.length - 1}
-          />
-        ))}
+        <div className="container">
+          <div className="row text-center">
+            <p>The schedule will be released soon</p>
+          </div>
+        </div>
       </React.Fragment>
     )
   }

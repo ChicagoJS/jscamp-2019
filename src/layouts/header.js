@@ -1,54 +1,48 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
+import Logo from '../components/Logo'
 
 const LINKS = [
   {
-    label: 'ATTEND',
+    label: 'Attend',
     href: '/attend',
   },
   {
-    label: 'CONDUCT',
+    label: 'Conduct',
     href: '/code-of-conduct',
   },
   {
-    label: 'SCHEDULE',
+    label: 'Schedule',
     href: '/schedule',
   },
   {
-    label: 'SPEAKERS',
+    label: 'Speakers',
     href: '/speakers',
   },
   {
-    label: 'SPONSORS',
+    label: 'Sponsors',
     href: '/sponsors',
   },
 ]
 
 const NavLink = ({ label, href }) => (
   <li className="nav-item">
-    <Link
-      to={href}
-      style={{ color: 'white' }}
-      className="nav-link font-weight-bold"
-    >
+    <Link to={href} className="nav-link">
       {label}
     </Link>
   </li>
 )
 
 const ButtonLink = ({ label, to }) => (
-  <a
-    href={to}
-    className="ml-2 btn btn-light btn-primary text-primary font-weight-bold"
-  >
+  <a href={to} className="ml-2 btn btn-light btn-primary text-primary">
     {label}
   </a>
 )
 
 export default ({ title, ticketLink }) => (
-  <nav className="p-4 navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-    <Link className="navbar-brand mb-0 h1 font-weight-bold" to="/">
-      JSCAMP CHICAGO
+  <nav className="p-3 navbar navbar-expand-md fixed-top bg-white border-box-shadow">
+    <Link className="navbar-brand mb-0" to="/">
+      <Logo width={160} height={42} />
     </Link>
     <button
       className="navbar-toggler"
@@ -63,7 +57,9 @@ export default ({ title, ticketLink }) => (
     </button>
     <div className="collapse navbar-collapse" id="navbarCollapse">
       <ul className="navbar-nav ml-auto">
-        {LINKS.map(link => <NavLink {...link} />)}
+        {LINKS.map(link => (
+          <NavLink {...link} />
+        ))}
         <ButtonLink label="BUY TICKETS" to={ticketLink} />
       </ul>
     </div>
