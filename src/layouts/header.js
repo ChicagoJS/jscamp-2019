@@ -34,7 +34,7 @@ const NavLink = ({ label, href }) => (
 )
 
 const ButtonLink = ({ label, to }) => (
-  <a href={to} className="ml-2 btn btn-light btn-primary text-primary">
+  <a href={to} className="ml-2 btn btn-primary text-white">
     {label}
   </a>
 )

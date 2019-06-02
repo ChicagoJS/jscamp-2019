@@ -107,3 +107,13 @@ p.lead {
 .border-box-shadow {
   box-shadow: 4px 7px 11px 0px rgba(200, 200, 200, 0.2);
 }
+
+.bg-text-overlay { z-index: 1; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1)}
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  box-shadow: none;
+  padding: 8px 20px;
+}

@@ -71,12 +71,6 @@ export default class SponsorshipPage extends React.Component {
             </a>
           </div>
         </div>
-        {sponsors.length > 0 && (
-          <h1 className="text-primary text-center">Our Sponsors</h1>
-        )}
-        <br />
-        {sponsors.length > 0 &&
-          sponsors.map(sponsor => <SponsorRow {...sponsor} />)}
       </React.Fragment>
     )
   }

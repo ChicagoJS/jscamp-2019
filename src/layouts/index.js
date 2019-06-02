@@ -54,24 +54,38 @@ function getPageInfo(pathname) {
   }
 }
 
-const HomePageHero = ({ backgroundImage, title, date, city, ticketLink }) => (
+const HomePageHero = ({
+  backgroundImage,
+  title,
+  date,
+  city,
+  ticketLink,
+  cfpLink,
+}) => (
   <div
     style={{
       backgroundSize: 'cover',
       backgroundImage: `url(https://res.cloudinary.com/chicagojs/image/fetch/w_1200,h_400,c_fill,g_center,f_auto,dpr_auto/${backgroundImage})`,
     }}
-    className="position-relative overflow-hidden p-3 p-md-5 text-center bg-light"
+    className="position-relative overflow-hidden text-center"
   >
-    <div className="p-lg-7 mx-auto my-5 text-white">
-      <h1 className="display-1 font-weight-bold">{title}</h1>
-      <p className="lead font-weight-normal">
-        {date}
-        <br />
-        {city}
-      </p>
-      <a href={ticketLink} className="btn btn-primary">
-        BUY TICKETS
-      </a>
+    <div className="bg-overlay p-3 p-md-5">
+      <div className="bg-text-overlay p-lg-7 mx-auto my-5 text-white">
+        <h1 className="display-1 font-weight-bold mb-0">{title}</h1>
+        <p className="lead font-weight-normal">
+          {date} • {city}
+        </p>
+        <a
+          style={{ fontSize: 20 }}
+          href={ticketLink}
+          className="btn btn-primary mr-3"
+        >
+          TICKETS
+        </a>
+        <a style={{ fontSize: 20 }} href={cfpLink} className="btn btn-primary">
+          SPEAK
+        </a>
+      </div>
     </div>
   </div>
 )
@@ -92,9 +106,6 @@ export default class Layout extends React.Component {
         style={{
           paddingTop: 84,
           height: '100%',
-          // display: 'flex',
-          // flexDirection: 'column',
-          // justifyContent: 'space-between',
         }}
       >
         <Header
@@ -108,6 +119,7 @@ export default class Layout extends React.Component {
             city={siteMetadata.city}
             date={siteMetadata.date}
             ticketLink={siteMetadata.ticketLink}
+            cfpLink={siteMetadata.cfpLink}
           />
         ) : (
           <PageHeader {...getPageInfo(location.pathname)} />
@@ -134,6 +146,7 @@ export const pageQuery = graphql`
         city
         date
         ticketLink
+        cfpLink
       }
     }
   }
