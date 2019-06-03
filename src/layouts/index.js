@@ -96,39 +96,48 @@ export default class Layout extends React.Component {
     const isHome = location.pathname === '/'
     const siteMetadata = get(this.props, 'data.site.siteMetadata', {})
 
-    const mainStyles = {}
-    if (!isHome) {
-      // mainStyles.flex = 1
+    const mainStyles = {
+      flex: 1,
     }
+    // if (!isHome) {
+    //   mainStyles.flex = 1
+    // }
 
     return (
-      <div
-        style={{
-          paddingTop: 84,
-          height: '100%',
-        }}
-      >
+      <React.Fragment>
         <Header
           title={siteMetadata.title}
           ticketLink={siteMetadata.ticketLink}
         />
-        {isHome ? (
-          <HomePageHero
-            backgroundImage={CONFIG.images.hero}
-            title={siteMetadata.title}
-            city={siteMetadata.city}
-            date={siteMetadata.date}
-            ticketLink={siteMetadata.ticketLink}
-            cfpLink={siteMetadata.cfpLink}
+        <div
+          style={{
+            paddingTop: 84,
+            minHeight: '100vh',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          {isHome ? (
+            <HomePageHero
+              backgroundImage={CONFIG.images.hero}
+              title={siteMetadata.title}
+              city={siteMetadata.city}
+              date={siteMetadata.date}
+              ticketLink={siteMetadata.ticketLink}
+              cfpLink={siteMetadata.cfpLink}
+            />
+          ) : (
+            <PageHeader {...getPageInfo(location.pathname)} />
+          )}
+          <main style={mainStyles} class="container">
+            {children()}
+          </main>
+          <Footer
+            title={data.site.siteMetadata.title}
+            cfpLink={data.site.siteMetadata.cfpLink}
           />
-        ) : (
-          <PageHeader {...getPageInfo(location.pathname)} />
-        )}
-        <main style={mainStyles} class="container">
-          {children()}
-        </main>
-        <Footer title={data.site.siteMetadata.title} />
-      </div>
+        </div>
+      </React.Fragment>
     )
   }
 }

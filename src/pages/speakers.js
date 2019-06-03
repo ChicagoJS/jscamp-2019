@@ -17,11 +17,7 @@ export default class SpeakersPage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Speakers`} />
-        <div className="container">
-          <div className="row text-center">
-            <p>The speakers will be released soon</p>
-          </div>
-        </div>
+        <p>The speakers will be released soon</p>
       </React.Fragment>
     )
   }

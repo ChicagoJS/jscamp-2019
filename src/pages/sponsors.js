@@ -34,36 +34,32 @@ export default class SponsorshipPage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Sponsors`} />
-        <div className="container">
-          <h1 className="text-primary text-center">
-            Sponsor {siteMetadata.title}
-          </h1>
-          <br />
-          <p>
-            At {siteMetadata.title}, the best JS programmers will gather for a
-            one track, one day conference that will showcase the future of
-            JavaScript and we want you there as a sponsor!
-          </p>
-          <p>
-            There are no booths, no exhibit halls and we encourage you to send
-            your best technical talent. We focus the sponsorships on creating
-            amazing shared experiences which have a far broader and longer
-            lasting effects for you and our attendees.
-          </p>
-          <p>
-            Whether your goal is brand exposure, recruiting, product launch, or
-            something else, we have a sponsorship opportunity for you.
-          </p>
-          <div className="text-center mb-5">
-            <a href={siteMetadata.sponsorForm} className="btn btn-primary">
-              Sponsor Us
-            </a>
-            <br />
-            <br />
-            <a href={siteMetadata.sponsorPdf} className="btn btn-primary">
-              Sponsor Prospectus
-            </a>
-          </div>
+        <h1 className="text-primary text-center">
+          Sponsor {siteMetadata.title}
+        </h1>
+        <br />
+        <p>
+          At {siteMetadata.title}, the best JS programmers will gather for a one
+          track, one day conference that will showcase the future of JavaScript
+          and we want you there as a sponsor!
+        </p>
+        <p>
+          There are no booths, no exhibit halls and we encourage you to send
+          your best technical talent. We focus the sponsorships on creating
+          amazing shared experiences which have a far broader and longer lasting
+          effects for you and our attendees.
+        </p>
+        <p>
+          Whether your goal is brand exposure, recruiting, product launch, or
+          something else, we have a sponsorship opportunity for you.
+        </p>
+        <div className="text-center mt-3">
+          <a href={siteMetadata.sponsorForm} className="btn btn-primary mr-3">
+            Sponsor Us
+          </a>
+          <a href={siteMetadata.sponsorPdf} className="btn btn-primary">
+            Prospectus
+          </a>
         </div>
       </React.Fragment>
     )

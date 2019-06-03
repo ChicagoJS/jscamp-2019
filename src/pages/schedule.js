@@ -12,11 +12,7 @@ export default class SchedulePage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Schedule`} />
-        <div className="container">
-          <div className="row text-center">
-            <p>The schedule will be released soon</p>
-          </div>
-        </div>
+        <p>The schedule will be released soon</p>
       </React.Fragment>
     )
   }
