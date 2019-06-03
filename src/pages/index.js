@@ -43,7 +43,12 @@ export default class HomePage extends React.Component {
           text="JSCamp is a one day single track conference for developers interested in JavaScript. Speakers are covering topics such as Node, React, Vue, Ember for both beginners and experts. Come check out Chicago and meet the developers you hear about online!"
           cta={() => (
             <div className="text-center">
-              <a href={siteMetadata.ticketLink} className="btn btn-primary">
+              <a
+                target="_blank"
+                rel="noopener nofollow"
+                href={siteMetadata.ticketLink}
+                className="btn btn-primary"
+              >
                 BUY TICKETS
               </a>
             </div>
@@ -56,9 +61,11 @@ export default class HomePage extends React.Component {
           cta={() => (
             <div className="text-center">
               <a
-                href="mailto:mike@chicagojs.org"
+                target="_blank"
+                rel="noopener nofollow"
+                href={siteMetadata.sponsorForm}
                 className="btn btn-primary mr-3"
-                alt="Email us for JSCamp sponsorship info"
+                alt="Sponsor ChicagoJS Camp"
               >
                 SPONSOR US
               </a>
@@ -94,6 +101,7 @@ export const pageQuery = graphql`
         city
         date
         ticketLink
+        sponsorForm
       }
     }
   }
