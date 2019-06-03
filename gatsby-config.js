@@ -10,6 +10,10 @@ module.exports = {
     date: 'September 14, 2019',
     ticketLink: 'https://ti.to/chicagojs/chicago-js-camp-2019',
     cfpLink: 'https://www.papercall.io/chicagojs-conf-2019',
+    sponsorForm:
+      'https://docs.google.com/forms/d/e/1FAIpQLScJ_YmJg5_HMD4aDg6wkFTYsXrMdPmBs47gxNRq7ke_p7ErLQ/viewform',
+    sponsorPdf:
+      'https://drive.google.com/file/d/1U8YVMnv-BeWlOOFs66lRsZKTQVlRfZb4/view?usp=sharing',
   },
   pathPrefix: '/',
   plugins: [

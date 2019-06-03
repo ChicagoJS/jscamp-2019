@@ -55,18 +55,12 @@ export default class SponsorshipPage extends React.Component {
             something else, we have a sponsorship opportunity for you.
           </p>
           <div className="text-center mb-5">
-            <a
-              href="http://bit.ly/JSCamp2018Sponsor"
-              className="btn btn-primary"
-            >
+            <a href={siteMetadata.sponsorForm} className="btn btn-primary">
               Sponsor Us
             </a>
             <br />
             <br />
-            <a
-              href="https://drive.google.com/file/d/1KT2oN9REmW0T-FrSUmePLDWOnoXsrb_0/view?usp=sharing"
-              className="btn btn-primary"
-            >
+            <a href={siteMetadata.sponsorPdf} className="btn btn-primary">
               Sponsor Prospectus
             </a>
           </div>
@@ -115,6 +109,8 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        sponsorForm
+        sponsorPdf
       }
     }
   }
