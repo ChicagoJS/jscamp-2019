@@ -11,7 +11,7 @@
     "linkedInUrl": "https://www.linkedin.com/in/isabela-moreira/",
     "twitterUrl": "https://twitter.com/isabelacmor",
     "githubUrl": "https://github.com/isabelacmor",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/isabela-moreira.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812940/2019-chicagojscamp/speakers/isabela-moreira.jpg"
   },
   {
     "id": "recKL3UQdiSz3jIBc",
@@ -21,7 +21,7 @@
     "location": "Chicago, IL",
     "talkTitle": "Build a mobile app overnight with Draftbit: What, Why & How",
     "confirmed": true,
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/angela-malone.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812923/2019-chicagojscamp/speakers/angela-malone.jpg"
   },
   {
     "id": "recYcmEqOHmfH6nAX",
@@ -34,7 +34,7 @@
     "confirmed": true,
     "twitterUrl": "https://twitter.com/likeOMGitsFEDAY",
     "githubUrl": "https://github.com/tehfedaykin",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/jennifer-wadella.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812941/v15628129412019-chicagojscamp/speakers/jennifer-wadella.jpg"
   },
   {
     "id": "recdhaGqn8ZjJ5GvD",
@@ -48,7 +48,7 @@
     "linkedInUrl": "https://www.linkedin.com/in/diegoahernandez/",
     "twitterUrl": "https://twitter.com/diego_codes",
     "githubUrl": "https://github.com/diego-codes/",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/diego-hernandez.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg"
   },
   {
     "id": "recqRaW5KavdMZakC",
@@ -60,6 +60,6 @@
     "talkTitle": "Confessions of a True Imposter",
     "confirmed": true,
     "linkedInUrl": "https://www.linkedin.com/in/braidy-merkle/",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/braidy-merkle.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562301335/2019-chicagojscamp/speakers/braidy-merkle.jpg"
   }
 ]

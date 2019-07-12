@@ -117,7 +117,6 @@ export const pageQuery = graphql`
           id
           name
           about
-          bio
           type
           location
           linkedInUrl
