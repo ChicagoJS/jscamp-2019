@@ -33,3 +33,5 @@ node_modules
 src/cache
 /package-lock.json
 .cache
+
+scripts

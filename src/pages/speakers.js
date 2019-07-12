@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import get from 'lodash.get'
 
 const byName = (a, b) => {
-  if (a.fullName < b.fullName) return -1
-  if (a.fullName > b.fullName) return 1
+  if (a.name < b.name) return -1
+  if (a.name > b.name) return 1
   return 0
 }
 
@@ -17,7 +17,13 @@ export default class SpeakersPage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Speakers`} />
-        <p>The speakers will be released soon</p>
+        <div className="container">
+          <div className="row text-center">
+            {speakers.sort(byName).map(({ speaker }) => (
+              <Speaker speaker={speaker} />
+            ))}
+          </div>
+        </div>
       </React.Fragment>
     )
   }
@@ -25,14 +31,16 @@ export default class SpeakersPage extends React.Component {
 
 const Speaker = ({
   speaker: {
-    fullName,
+    id,
+    name,
+    about,
     bio,
-    title,
-    company,
-    photoUrl,
+    type,
     location,
-    github,
-    twitter,
+    linkedInUrl,
+    twitterUrl,
+    githubUrl,
+    imageUrl,
   },
 }) => (
   <div className="col-lg-4 text-center" style={{ marginBottom: 40 }}>
@@ -43,42 +51,54 @@ const Speaker = ({
       }}
     >
       <img
-        src={`https://res.cloudinary.com/chicagojs/image/fetch/w_160,h_160,c_fill,g_face,f_auto/${photoUrl}`}
-        alt={`Headshot of ${fullName}`}
+        src={imageUrl}
+        alt={`Headshot of ${name}`}
         width={160}
         height={160}
         style={{ width: 160, height: 160, borderRadius: 80 }}
       />
     </div>
-    <h2>{fullName}</h2>
-    <p>{title}</p>
+    <h2>{name}</h2>
+    <p>{about}</p>
     <hr />
-    <p>
-      {company}
-      <br />
-      {location}
-    </p>
+    <p>{location}</p>
     <ul className="list-unstyled">
-      <li className="d-inline-block">
-        <a href={`https://github.com/${github}`}>
-          <img
-            width={48}
-            height={48}
-            style={{ width: 48, height: 48 }}
-            src="/github.svg"
-          />
-        </a>
-      </li>
-      <li className="d-inline-block">
-        <a href={`https://twitter.com/${twitter}`}>
-          <img
-            width={48}
-            height={48}
-            style={{ width: 48, height: 48 }}
-            src="/twitter.svg"
-          />
-        </a>
-      </li>
+      {!githubUrl ? null : (
+        <li className="d-inline-block">
+          <a href={githubUrl}>
+            <img
+              width={36}
+              height={36}
+              style={{ width: 36, height: 36 }}
+              src="/github.svg"
+            />
+          </a>
+        </li>
+      )}
+      {!twitterUrl ? null : (
+        <li className="d-inline-block">
+          <a href={twitterUrl}>
+            <img
+              width={36}
+              height={36}
+              style={{ width: 36, height: 36 }}
+              src="/twitter.svg"
+            />
+          </a>
+        </li>
+      )}
+      {!linkedInUrl ? null : (
+        <li className="d-inline-block">
+          <a href={linkedInUrl}>
+            <img
+              width={36}
+              height={36}
+              style={{ width: 36, height: 36 }}
+              src="/linkedin.svg"
+            />
+          </a>
+        </li>
+      )}
     </ul>
   </div>
 )
@@ -88,14 +108,16 @@ export const pageQuery = graphql`
     allSpeakersJson {
       edges {
         speaker: node {
-          github
-          twitter
-          fullName
+          id
+          name
+          about
           bio
-          title
-          company
-          photoUrl
+          type
           location
+          linkedInUrl
+          twitterUrl
+          githubUrl
+          imageUrl
         }
       }
     }
