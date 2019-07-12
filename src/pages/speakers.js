@@ -55,7 +55,13 @@ const Speaker = ({
         alt={`Headshot of ${name}`}
         width={160}
         height={160}
-        style={{ width: 160, height: 160, borderRadius: 80 }}
+        style={{
+          padding: 0,
+          margin: 0,
+          width: 160,
+          height: 160,
+          borderRadius: 80,
+        }}
       />
     </div>
     <h2>{name}</h2>
