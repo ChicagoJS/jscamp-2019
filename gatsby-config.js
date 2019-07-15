@@ -13,7 +13,7 @@ module.exports = {
     sponsorForm:
       'https://docs.google.com/forms/d/e/1FAIpQLScJ_YmJg5_HMD4aDg6wkFTYsXrMdPmBs47gxNRq7ke_p7ErLQ/viewform',
     sponsorPdf:
-      'https://drive.google.com/file/d/1U8YVMnv-BeWlOOFs66lRsZKTQVlRfZb4/view?usp=sharing',
+      'https://drive.google.com/file/d/1urFO5OzDpu7j8j4AICo7Gy2CmvVc0Azf/view?usp=sharing',
   },
   pathPrefix: '/',
   plugins: [
