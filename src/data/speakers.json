@@ -10,6 +10,7 @@
     "confirmed": true,
     "linkedInUrl": "https://www.linkedin.com/in/diegoahernandez/",
     "twitterUrl": "https://twitter.com/diego_codes",
+    "githubUrl": "https://github.com/diego-codes/",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg"
   },
   {
@@ -23,6 +24,7 @@
     "confirmed": true,
     "linkedInUrl": "https://www.linkedin.com/in/isabela-moreira/",
     "twitterUrl": "https://twitter.com/isabelacmor",
+    "githubUrl": "https://github.com/isabelacmor",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812940/2019-chicagojscamp/speakers/isabela-moreira.jpg"
   },
   {
@@ -36,6 +38,7 @@
     "confirmed": true,
     "linkedInUrl": "https://linkedin.com/in/jchiatt",
     "twitterUrl": "https://twitter.com/jchiatt",
+    "githubUrl": "https://github.com/jchiatt",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/jc-hiatt"
   },
   {
@@ -48,6 +51,7 @@
     "talkTitle": "Hacking your work life __ balance to take over the world. ",
     "confirmed": true,
     "twitterUrl": "https://twitter.com/likeOMGitsFEDAY",
+    "githubUrl": "https://github.com/tehfedaykin",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812941/2019-chicagojscamp/speakers/jennifer-wadella.jpg"
   },
   {
@@ -82,6 +86,7 @@
     "location": "Chicago, IL",
     "talkTitle": "Build a mobile app overnight with Draftbit: What, Why & How",
     "confirmed": true,
+    "githubUrl": "https://github.com/angmalone",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812923/2019-chicagojscamp/speakers/angela-malone.jpg"
   },
   {
@@ -94,6 +99,7 @@
     "talkTitle": "Keynote Address",
     "confirmed": true,
     "linkedInUrl": "http://linkedin.com/s/tracyslee",
+    "githubUrl": "https://github.com/ladyleet",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/tracy-lee"
   },
   {
@@ -106,6 +112,7 @@
     "talkTitle": "Preparing Transmission's Web Frontend for Scale",
     "confirmed": true,
     "linkedInUrl": "https://www.linkedin.com/in/bambielli/",
+    "githubUrl": "https://github.com/bambielli",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/brian-ambielli"
   },
   {
@@ -116,6 +123,7 @@
     "location": "Chicago, IL",
     "talkTitle": "Typescript: How I learned to love my Javascript",
     "confirmed": true,
+    "githubUrl": "https://github.com/westeezy",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/westin-wrzesinski"
   },
   {
@@ -126,6 +134,7 @@
     "location": "New York, NY",
     "talkTitle": "Using JavaScript to Power Finance's Most Powerful Tool",
     "confirmed": true,
+    "githubUrl": "https://github.com/joshjhargreaves",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/josh-hargreaves"
   },
   {
