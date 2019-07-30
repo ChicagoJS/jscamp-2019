@@ -61,7 +61,7 @@ module.exports = {
       options: {
         trackingId: 'UA-122479330-1',
         cookieDomain: 'chicagojscamp.org, ti.to',
-        allowLinker: true
+        allowLinker: true,
       },
     },
     {
