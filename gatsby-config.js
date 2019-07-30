@@ -63,6 +63,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '2473365316081726',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify',
       options: {
         mergeSecurityHeaders: true,
