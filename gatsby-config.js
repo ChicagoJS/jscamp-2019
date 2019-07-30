@@ -60,6 +60,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-122479330-1',
+        cookieDomain: "chicagojscamp.org"
       },
     },
     {
