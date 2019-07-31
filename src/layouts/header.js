@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Logo from '../components/Logo'
 
 const LINKS = [
@@ -28,9 +27,9 @@ const LINKS = [
 
 const NavLink = ({ label, href }) => (
   <li className="nav-item">
-    <OutboundLink to={href} className="nav-link">
+    <Link to={href} className="nav-link">
       {label}
-    </OutboundLink>
+    </Link>
   </li>
 )
 
