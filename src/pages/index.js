@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Helmet from 'react-helmet'
 import get from 'lodash.get'
 
@@ -77,9 +78,9 @@ export default class HomePage extends React.Component {
           text={CONFIG.coc.description}
           cta={() => (
             <div className="text-center">
-              <Link to="/code-of-conduct" className="btn btn-primary">
+              <OutboundLink to="/code-of-conduct" className="btn btn-primary">
                 CODE OF CONDUCT
-              </Link>
+              </OutboundLink>
             </div>
           )}
         />

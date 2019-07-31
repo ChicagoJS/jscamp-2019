@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Logo from '../components/Logo'
 
 export default ({ title, cfpLink }) => (
@@ -17,7 +18,7 @@ export default ({ title, cfpLink }) => (
         </a>
       </li>
       <li className="list-inline-item p-2">
-        <Link to="/attend">Attend</Link>
+        <OutboundLink to="/attend">Attend</OutboundLink>
       </li>
       <li className="list-inline-item p-2">
         <a target="_blank" rel="nofollow noopener" href="https://chicagojs.org">
