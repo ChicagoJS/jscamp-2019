@@ -76,11 +76,9 @@ export const pageQuery = graphql`
       edges {
         talk: node {
           time
-          title
           talkTitle
           photoUrl
           fullName
-          talkDescription
         }
       }
     }
