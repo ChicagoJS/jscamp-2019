@@ -14,6 +14,18 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg"
   },
   {
+    "id": "recni8egJPxDi3gYr",
+    "name": "Divya Sasidharan",
+    "about": "Developer Advocate at Netlify",
+    "bio": "Divya Sasidharan is a web developer who is passionate about open source and the web. She is currently a developer advocate at Netlify, and believes that there is a better workflow for building and deploying sites that doesn’t require a server—ask her about the JAMstack. You will most likely find her in the sunniest spot in the room with a cup of tea in hand.",
+    "type": "25-30m Talk",
+    "location": "Boston, MA",
+    "talkTitle": "The Quest for Serverless",
+    "confirmed": true,
+    "twitterUrl": "https://twitter.com/shortdiv",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565288899/2019-chicagojscamp/speakers/divya-sasidharan"
+  },
+  {
     "id": "recouDSe6Sak8bkSv",
     "name": "Isabela Moreira",
     "about": "Senior UX Engineer",
@@ -146,5 +158,23 @@
     "talkTitle": "How I went from a Bootcamp to leading the global mobile team for WomenWhoCode",
     "confirmed": true,
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563988845/2019-chicagojscamp/speakers/mackenzie-bryant"
+  },
+  {
+    "id": "receOUqI8BDDvhrA0",
+    "name": "Sebastian Kurpiel",
+    "type": "5-10m Lightning Talk",
+    "location": "Chicago, IL",
+    "talkTitle": "Leveling Up From Intern to Junior",
+    "confirmed": true,
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287124/2019-chicagojscamp/speakers/sebastian-kurpiel"
+  },
+  {
+    "id": "recDBevqK5xAg0Q44",
+    "name": "Chris Hernandez",
+    "type": "5-10m Lightning Talk",
+    "location": "Chicago, IL",
+    "talkTitle": "How We Run 1,000 Tests in Half a Second with ReasonML and Rely",
+    "confirmed": true,
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287136/2019-chicagojscamp/speakers/christopher-hernandez"
   }
 ]
