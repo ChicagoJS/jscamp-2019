@@ -57,9 +57,16 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'chicagojs-plugin-ga',
       options: {
         trackingId: 'UA-122479330-1',
+        allowLinker: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '2473365316081726',
       },
     },
     {
