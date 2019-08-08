@@ -132,10 +132,7 @@ export default class Layout extends React.Component {
           <main style={mainStyles} class="container">
             {children()}
           </main>
-          <Footer
-            title={data.site.siteMetadata.title}
-            cfpLink={data.site.siteMetadata.cfpLink}
-          />
+          <Footer title={siteMetadata.title} cfpLink={siteMetadata.cfpLink} />
         </div>
       </React.Fragment>
     )
