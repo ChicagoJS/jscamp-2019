@@ -12,7 +12,9 @@ export default class SchedulePage extends React.Component {
     return (
       <React.Fragment>
         <Helmet title={`${siteMetadata.title} | Schedule`} />
-        <p>The schedule will be released soon</p>
+        {talks.map(talk => (
+          <ScheduleRow {...talk} />
+        ))}
       </React.Fragment>
     )
   }
@@ -59,13 +61,15 @@ const ScheduleRow = ({
       {fullName && (
         <span
           style={{ display: 'block' }}
-          className="text-secondary font-weight-bold mb-2"
+          className="text-secondary font-weight-normal mb-2"
         >
           {fullName}
         </span>
       )}
-      {title && <p className="m-0 font-weight-bold text-primary">{title}</p>}
-      {talkTitle && <h2 className="m-0 text-primary">{talkTitle}</h2>}
+      {title && <p className="m-0 font-weight-normal text-primary">{title}</p>}
+      {talkTitle && (
+        <p className="m-0 text-primary font-weight-medium">{talkTitle}</p>
+      )}
     </div>
   </div>
 )

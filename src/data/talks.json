@@ -1,154 +1,154 @@
 [
   {
     "id": "recdmb1qP0SDPr2Nc",
-    "time": "2019-09-14T08:00:00.000Z",
+    "time": "08:00 am",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Breakfast & Registration"
   },
   {
     "id": "recmc0SCpW6a85CBe",
-    "time": "2019-09-14T09:00:00.000Z",
+    "time": "09:00 am",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Opening Remarks by JSCamp"
   },
   {
     "id": "recRY5Mew2rRUSkdG",
-    "time": "2019-09-14T09:10:00.000Z",
+    "time": "09:10 am",
     "fullName": "Tracy Lee",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/tracy-lee",
     "talkTitle": "Keynote by Tracy Lee"
   },
   {
     "id": "recbiZn91QqUNiBum",
-    "time": "2019-09-14T09:45:00.000Z",
+    "time": "09:45 am",
     "fullName": "Chris Hernandez",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287136/2019-chicagojscamp/speakers/christopher-hernandez",
     "talkTitle": "How We Run 1,000 Tests in Half a Second with ReasonML and Rely"
   },
   {
     "id": "rec6hde3diYAl7f7o",
-    "time": "2019-09-14T09:55:00.000Z",
+    "time": "09:55 am",
     "fullName": "Divya Sasidharan",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565288899/2019-chicagojscamp/speakers/divya-sasidharan",
     "talkTitle": "The Quest for Serverless"
   },
   {
     "id": "recqA9XyEaqUacYcT",
-    "time": "2019-09-14T10:30:00.000Z",
+    "time": "10:30 am",
     "fullName": "Westin Wrzesinski",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/westin-wrzesinski",
     "talkTitle": "Typescript: How I learned to love my Javascript"
   },
   {
     "id": "rec92PIs6ixTqke4b",
-    "time": "2019-09-14T10:40:00.000Z",
+    "time": "10:40 am",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Morning Break"
   },
   {
     "id": "recOGUu2QCHYJ4HAA",
-    "time": "2019-09-14T11:05:00.000Z",
+    "time": "11:05 am",
     "fullName": "J.C. Hiatt",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/jc-hiatt",
     "talkTitle": "Pass the interview! Common questions and answers for frontend positions"
   },
   {
     "id": "rec7N1AtlahasdR4t",
-    "time": "2019-09-14T11:40:00.000Z",
+    "time": "11:40 am",
     "fullName": "Mackenzie Bryant",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563988845/2019-chicagojscamp/speakers/mackenzie-bryant",
     "talkTitle": "How I went from a Bootcamp to leading the global mobile team for WomenWhoCode"
   },
   {
     "id": "rec9qNZRZoUtYqz79",
-    "time": "2019-09-14T23:50:00.000Z",
+    "time": "11:50 pm",
     "fullName": "Diego Hernandez",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg",
     "talkTitle": "Reinforcing your blocks: A practical guide to UI component testing"
   },
   {
     "id": "recFBNVLZzqbJ9pj8",
-    "time": "2019-09-14T12:20:00.000Z",
+    "time": "12:20 pm",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Lunch"
   },
   {
     "id": "recmRMJPXOYqs2Rbg",
-    "time": "2019-09-14T13:45:00.000Z",
+    "time": "01:45 pm",
     "fullName": "Isabela Moreira",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812940/2019-chicagojscamp/speakers/isabela-moreira.jpg",
     "talkTitle": "Starting from Scratch: The Startup's Guide to Creating a Design System"
   },
   {
     "id": "recSwIRefrLBkTGOm",
-    "time": "2019-09-14T14:20:00.000Z",
+    "time": "02:20 pm",
     "fullName": "Karl L. Hughes",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563771277/2019-chicagojscamp/speakers/karl-hughes",
     "talkTitle": "Stop Writing Code and Start Solving Problems"
   },
   {
     "id": "recIZix3psZJbuNXB",
-    "time": "2019-09-14T14:30:00.000Z",
+    "time": "02:30 pm",
     "fullName": "Braidy Merkle",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562301335/2019-chicagojscamp/speakers/braidy-merkle.jpg",
     "talkTitle": "Confessions of a True Imposter"
   },
   {
     "id": "recgqbI07CDvI6QKx",
-    "time": "2019-09-14T15:05:00.000Z",
+    "time": "03:05 pm",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Afternoon Break"
   },
   {
     "id": "rech0mYnzptg39ywi",
-    "time": "2019-09-14T15:30:00.000Z",
+    "time": "03:30 pm",
     "fullName": "Josh Hargreaves",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/josh-hargreaves",
     "talkTitle": "Using JavaScript to Power Finance's Most Powerful Tool"
   },
   {
     "id": "recxhKY0MNsmbagEJ",
-    "time": "2019-09-14T16:05:00.000Z",
+    "time": "04:05 pm",
     "fullName": "Angela Malone",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812923/2019-chicagojscamp/speakers/angela-malone.jpg",
     "talkTitle": "Build a mobile app overnight with Draftbit: What, Why & How"
   },
   {
     "id": "recODsS3giPDNx0HN",
-    "time": "2019-09-14T16:40:00.000Z",
+    "time": "04:40 pm",
     "fullName": "Sebastian Kurpiel",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287124/2019-chicagojscamp/speakers/sebastian-kurpiel",
     "talkTitle": "Leveling Up From Intern to Junior"
   },
   {
     "id": "recbQF2W8L4auw4Qb",
-    "time": "2019-09-14T16:50:00.000Z",
+    "time": "04:50 pm",
     "fullName": "Brian Ambielli",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/brian-ambielli",
     "talkTitle": "Preparing Transmission's Web Frontend for Scale"
   },
   {
     "id": "recuU2ejwm5QsrBeC",
-    "time": "2019-09-14T17:25:00.000Z",
+    "time": "05:25 pm",
     "fullName": "Jennifer Wadella",
     "photoUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812941/2019-chicagojscamp/speakers/jennifer-wadella.jpg",
     "talkTitle": "Hacking your work life __ balance to take over the world. "
   },
   {
     "id": "recp8eXgWqTIqglsJ",
-    "time": "2019-09-14T18:00:00.000Z",
+    "time": "06:00 pm",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Closing Remarks by ChicagoJS Camp"
   },
   {
     "id": "recG9jK1jA2bs5HPR",
-    "time": "2019-09-14T19:00:00.000Z",
+    "time": "07:00 pm",
     "fullName": "",
     "photoUrl": "",
     "talkTitle": "Evening After Party"

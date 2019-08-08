@@ -29,6 +29,7 @@
     "animate.css": "^3.5.2",
     "babel-eslint": "^8.0.3",
     "bootstrap": "^4.0.0",
+    "dateformat": "^3.0.3",
     "devicon-2.2": "^2.2.0",
     "emergence.js": "^1.1.2",
     "eslint": "^4.13.0",
