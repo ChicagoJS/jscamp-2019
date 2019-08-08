@@ -1,17 +1,25 @@
 [
   {
-    "id": "recqpalbFIUzDx4Kk",
-    "name": "Diego Hernandez",
-    "about": "Front-end developer at IBM",
-    "bio": "Diego Hernandez is a front-end developer at IBM and Software Engineering graduate student at DePaul University in Chicago. He is a trained filmmaker, turned self-taught developer and designer. As a creative person, Diego is always looking for ways to stretch his canvas—in this case, web browsers—to create unique web experiences that tell a story. When he’s not coding, you’ll probably find him attempting to indoor rock climb or in the kitchen trying out a new recipe.",
+    "id": "recEYHbU4ixngukYl",
+    "name": "Tracy Lee",
+    "about": "CEO, This Dot Labs",
+    "bio": "Tracy is the Co-Founder of This Dot Labs, a consultancy focused on helping companies with digital transformations. She is also a Google Developer Expert, RxJS Core Team member, a Women Techmakers Lead, and a frequent keynote speaker at conferences. She heads up Community Relations for Node.js at OpenJS Foundation, is the host of the Modern Web podcast, organizer of This.JavaScript, Contributor Days, Google Developer Group Silicon Valley and Triangle, and RxWorkshop. You can find her on Twitter @ladyleet or at http://thisdot.co/labs.",
     "type": "25-30m Talk",
-    "location": "Chicago, IL",
-    "talkTitle": "Reinforcing your blocks: A practical guide to UI component testing",
+    "location": "Bay Area, CA",
+    "talkTitle": "Keynote Address",
     "confirmed": true,
-    "linkedInUrl": "https://www.linkedin.com/in/diegoahernandez/",
-    "twitterUrl": "https://twitter.com/diego_codes",
-    "githubUrl": "https://github.com/diego-codes/",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg"
+    "linkedInUrl": "http://linkedin.com/s/tracyslee",
+    "githubUrl": "https://github.com/ladyleet",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/tracy-lee"
+  },
+  {
+    "id": "recDBevqK5xAg0Q44",
+    "name": "Chris Hernandez",
+    "type": "5-10m Lightning Talk",
+    "location": "Chicago, IL",
+    "talkTitle": "How We Run 1,000 Tests in Half a Second with ReasonML and Rely",
+    "confirmed": true,
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287136/2019-chicagojscamp/speakers/christopher-hernandez"
   },
   {
     "id": "recni8egJPxDi3gYr",
@@ -26,18 +34,18 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565288899/2019-chicagojscamp/speakers/divya-sasidharan"
   },
   {
-    "id": "recouDSe6Sak8bkSv",
-    "name": "Isabela Moreira",
-    "about": "Senior UX Engineer",
-    "bio": "Isabela is a huge fan of the intersection of code and design and also loves mechanical keyboards. She’s an advocate for women and minorities in tech and frequently speaks out on Twitter and provides tech resources on her blog.",
+    "id": "recqpalbFIUzDx4Kk",
+    "name": "Diego Hernandez",
+    "about": "Front-end developer at IBM",
+    "bio": "Diego Hernandez is a front-end developer at IBM and Software Engineering graduate student at DePaul University in Chicago. He is a trained filmmaker, turned self-taught developer and designer. As a creative person, Diego is always looking for ways to stretch his canvas—in this case, web browsers—to create unique web experiences that tell a story. When he’s not coding, you’ll probably find him attempting to indoor rock climb or in the kitchen trying out a new recipe.",
     "type": "25-30m Talk",
-    "location": "Seattle, WA",
-    "talkTitle": "Starting from Scratch: The Startup's Guide to Creating a Design System",
+    "location": "Chicago, IL",
+    "talkTitle": "Reinforcing your blocks: A practical guide to UI component testing",
     "confirmed": true,
-    "linkedInUrl": "https://www.linkedin.com/in/isabela-moreira/",
-    "twitterUrl": "https://twitter.com/isabelacmor",
-    "githubUrl": "https://github.com/isabelacmor",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812940/2019-chicagojscamp/speakers/isabela-moreira.jpg"
+    "linkedInUrl": "https://www.linkedin.com/in/diegoahernandez/",
+    "twitterUrl": "https://twitter.com/diego_codes",
+    "githubUrl": "https://github.com/diego-codes/",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562875601/2019-chicagojscamp/speakers/diego-hernandez.jpg"
   },
   {
     "id": "recOppzuat1tsGEYU",
@@ -54,24 +62,35 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/jc-hiatt"
   },
   {
-    "id": "recS1wieriacbRnO8",
-    "name": "Jennifer Wadella",
-    "about": "JavaScript Consultant",
-    "bio": "Jennifer Wadella has been writing code since before she realized it was a credible career path. She currently works as a JavaScript Consultant and loves building performant web applications, speaking at technical conferences, and brewing kombucha. Jennifer is an active member of the KC tech community and the founder of Kansas City Women in Technology(KCWiT), an organization aimed at growing the number of women in technology careers in Kansas City. She is the PubConf Sydney 2018 Champion, a Silicon Prairie Champion Award Nominee, Rising Trendsetter STEMMy award-winner, and is apparently Missouri’s Coolest Woman according to Pure Wow.",
-    "type": "25-30m Talk",
-    "location": "Kansas City, MO",
-    "talkTitle": "Hacking your work life __ balance to take over the world. ",
+    "id": "recpZFmzqLVuhDvQ4",
+    "name": "Mackenzie Bryant",
+    "about": "iOS Developer, Mobile Technical Track Lead at Women Who Code",
+    "type": "5-10m Lightning Talk",
+    "location": "Chicago, IL",
+    "talkTitle": "How I went from a Bootcamp to leading the global mobile team for WomenWhoCode",
     "confirmed": true,
-    "twitterUrl": "https://twitter.com/likeOMGitsFEDAY",
-    "githubUrl": "https://github.com/tehfedaykin",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812941/2019-chicagojscamp/speakers/jennifer-wadella.jpg"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563988845/2019-chicagojscamp/speakers/mackenzie-bryant"
+  },
+  {
+    "id": "recouDSe6Sak8bkSv",
+    "name": "Isabela Moreira",
+    "about": "Senior UX Engineer",
+    "bio": "Isabela is a huge fan of the intersection of code and design and also loves mechanical keyboards. She’s an advocate for women and minorities in tech and frequently speaks out on Twitter and provides tech resources on her blog.",
+    "type": "25-30m Talk",
+    "location": "Seattle, WA",
+    "talkTitle": "Starting from Scratch: The Startup's Guide to Creating a Design System",
+    "confirmed": true,
+    "linkedInUrl": "https://www.linkedin.com/in/isabela-moreira/",
+    "twitterUrl": "https://twitter.com/isabelacmor",
+    "githubUrl": "https://github.com/isabelacmor",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812940/2019-chicagojscamp/speakers/isabela-moreira.jpg"
   },
   {
     "id": "recYmLT3QI5A52fkC",
     "name": "Karl L. Hughes",
     "about": "CTO at The Graide Network",
     "bio": "Karl Hughes has been building software and teams for education technology startups in Chicago for the past several years. He is currently the CTO at The Graide Network where he oversees architecture, testing, and product planning. Besides code, he likes  writing in prose and cooking veggie burgers.",
-    "type": "25-30m Talk",
+    "type": "5-10m Lightning Talk",
     "location": "Chicago, IL",
     "talkTitle": "Stop Writing Code and Start Solving Problems",
     "confirmed": true,
@@ -91,6 +110,17 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562301335/2019-chicagojscamp/speakers/braidy-merkle.jpg"
   },
   {
+    "id": "reck58j7roys04dxR",
+    "name": "Josh Hargreaves",
+    "about": "Senior Software Engineer at Bloomberg",
+    "type": "25-30m Talk",
+    "location": "New York, NY",
+    "talkTitle": "Using JavaScript to Power Finance's Most Powerful Tool",
+    "confirmed": true,
+    "githubUrl": "https://github.com/joshjhargreaves",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/josh-hargreaves"
+  },
+  {
     "id": "recuRpyCPmbOEtiMj",
     "name": "Angela Malone",
     "about": "Engineer at Draftbit",
@@ -102,17 +132,26 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812923/2019-chicagojscamp/speakers/angela-malone.jpg"
   },
   {
-    "id": "recEYHbU4ixngukYl",
-    "name": "Tracy Lee",
-    "about": "CEO, This Dot Labs",
-    "bio": "Tracy is the Co-Founder of This Dot Labs, a consultancy focused on helping companies with digital transformations. She is also a Google Developer Expert, RxJS Core Team member, a Women Techmakers Lead, and a frequent keynote speaker at conferences. She heads up Community Relations for Node.js at OpenJS Foundation, is the host of the Modern Web podcast, organizer of This.JavaScript, Contributor Days, Google Developer Group Silicon Valley and Triangle, and RxWorkshop. You can find her on Twitter @ladyleet or at http://thisdot.co/labs.",
-    "type": "25-30m Talk",
-    "location": "Bay Area, CA",
-    "talkTitle": "Keynote Address",
+    "id": "receOUqI8BDDvhrA0",
+    "name": "Sebastian Kurpiel",
+    "type": "5-10m Lightning Talk",
+    "location": "Chicago, IL",
+    "talkTitle": "Leveling Up From Intern to Junior",
     "confirmed": true,
-    "linkedInUrl": "http://linkedin.com/s/tracyslee",
-    "githubUrl": "https://github.com/ladyleet",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/tracy-lee"
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287124/2019-chicagojscamp/speakers/sebastian-kurpiel"
+  },
+  {
+    "id": "recS1wieriacbRnO8",
+    "name": "Jennifer Wadella",
+    "about": "JavaScript Consultant",
+    "bio": "Jennifer Wadella has been writing code since before she realized it was a credible career path. She currently works as a JavaScript Consultant and loves building performant web applications, speaking at technical conferences, and brewing kombucha. Jennifer is an active member of the KC tech community and the founder of Kansas City Women in Technology(KCWiT), an organization aimed at growing the number of women in technology careers in Kansas City. She is the PubConf Sydney 2018 Champion, a Silicon Prairie Champion Award Nominee, Rising Trendsetter STEMMy award-winner, and is apparently Missouri’s Coolest Woman according to Pure Wow.",
+    "type": "25-30m Talk",
+    "location": "Kansas City, MO",
+    "talkTitle": "Hacking your work life __ balance to take over the world. ",
+    "confirmed": true,
+    "twitterUrl": "https://twitter.com/likeOMGitsFEDAY",
+    "githubUrl": "https://github.com/tehfedaykin",
+    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1562812941/2019-chicagojscamp/speakers/jennifer-wadella.jpg"
   },
   {
     "id": "rec7zV2JJ7fwePS8o",
@@ -131,50 +170,11 @@
     "id": "recmVgMevTkQ89DLO",
     "name": "Westin Wrzesinski",
     "about": "Staff Engineer at Sprout Social",
-    "type": "25-30m Talk",
+    "type": "5-10m Lightning Talk",
     "location": "Chicago, IL",
     "talkTitle": "Typescript: How I learned to love my Javascript",
     "confirmed": true,
     "githubUrl": "https://github.com/westeezy",
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/westin-wrzesinski"
-  },
-  {
-    "id": "reck58j7roys04dxR",
-    "name": "Josh Hargreaves",
-    "about": "Senior Software Engineer at Bloomberg",
-    "type": "25-30m Talk",
-    "location": "New York, NY",
-    "talkTitle": "Using JavaScript to Power Finance's Most Powerful Tool",
-    "confirmed": true,
-    "githubUrl": "https://github.com/joshjhargreaves",
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/josh-hargreaves"
-  },
-  {
-    "id": "recpZFmzqLVuhDvQ4",
-    "name": "Mackenzie Bryant",
-    "about": "iOS Developer, Mobile Technical Track Lead at Women Who Code",
-    "type": "5-10m Lightning Talk",
-    "location": "Chicago, IL",
-    "talkTitle": "How I went from a Bootcamp to leading the global mobile team for WomenWhoCode",
-    "confirmed": true,
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563988845/2019-chicagojscamp/speakers/mackenzie-bryant"
-  },
-  {
-    "id": "receOUqI8BDDvhrA0",
-    "name": "Sebastian Kurpiel",
-    "type": "5-10m Lightning Talk",
-    "location": "Chicago, IL",
-    "talkTitle": "Leveling Up From Intern to Junior",
-    "confirmed": true,
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287124/2019-chicagojscamp/speakers/sebastian-kurpiel"
-  },
-  {
-    "id": "recDBevqK5xAg0Q44",
-    "name": "Chris Hernandez",
-    "type": "5-10m Lightning Talk",
-    "location": "Chicago, IL",
-    "talkTitle": "How We Run 1,000 Tests in Half a Second with ReasonML and Rely",
-    "confirmed": true,
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1565287136/2019-chicagojscamp/speakers/christopher-hernandez"
   }
 ]
