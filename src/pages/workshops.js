@@ -21,7 +21,7 @@ export default class SponsorshipPage extends React.Component {
           September 13th, the day prior to the main event.
         </p>
 
-        <h2>Learn to use Docker with Node.js, with Karl Hugues</h2>
+        <h2>Learn to use Docker with Node.js, with Karl Hughes</h2>
 
         <h3>Friday, September 13, 2019</h3>
         <h5>HALF DAY - 1pm to 5pm</h5>
