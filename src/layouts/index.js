@@ -44,6 +44,11 @@ function getPageInfo(pathname) {
         title: 'Attend',
         imageUrl: 'https://source.unsplash.com/BwmOGbS2POw/1200x400',
       }
+    case '/workshops':
+      return {
+        title: 'Workshops',
+        imageUrl: 'https://source.unsplash.com/-GajrOEN6m4/1200x400',
+      }
     case '/sponsors':
       return {
         title: 'Sponsors',

@@ -8,6 +8,10 @@ const LINKS = [
     href: '/attend',
   },
   {
+    label: 'Workshops',
+    href: '/workshops',
+  },
+  {
     label: 'Conduct',
     href: '/code-of-conduct',
   },
