@@ -108,8 +108,11 @@ export default class SponsorshipPage extends React.Component {
           <p>
             Optionally, you can sign up for a DigitalOcean account to deploy
             your application. If you don't already have an account, you can get
-            $50 in free credit, by [signing up with this
-            link](https://m.do.co/c/888fefc32a01).
+            $50 in free credit, by{' '}
+            <a href="https://m.do.co/c/888fefc32a01">
+              signing up with this link
+            </a>
+            .
           </p>
           <ul>
             <li>
