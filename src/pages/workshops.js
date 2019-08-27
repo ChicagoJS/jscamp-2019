@@ -35,7 +35,33 @@ export default class SponsorshipPage extends React.Component {
 
         <h3>Course Outline</h3>
 
-        <em>Coming Soon</em>
+        <ul>
+          <li>
+            Introduction to Docker
+            <ul>
+              <li>Running your first container</li>
+              <li>Using volumes</li>
+              <li>Building a custom Docker image</li>
+            </ul>
+          </li>
+
+          <li>
+            Docker Compose
+            <ul>
+              <li>Orchestrating a local application</li>
+              <li>Running tests</li>
+              <li>Using Docker for continuous integration</li>
+            </ul>
+          </li>
+
+          <li>
+            Docker in Production
+            <ul>
+              <li>Hardening your Docker images </li>
+              <li>Deployment options</li>
+            </ul>
+          </li>
+        </ul>
 
         <p>
           Throughout the course, all topics will be reinforced with hands-on lab
@@ -78,6 +104,12 @@ export default class SponsorshipPage extends React.Component {
             You should also have access to a terminal (bash preferred) and text
             editor. While not necessarily required, some familiarity with
             Javascript and Node will be helpful.
+          </p>
+          <p>
+            Optionally, you can sign up for a DigitalOcean account to deploy
+            your application. If you don't already have an account, you can get
+            $50 in free credit, by [signing up with this
+            link](https://m.do.co/c/888fefc32a01).
           </p>
           <ul>
             <li>
