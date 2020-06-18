@@ -63,16 +63,6 @@
     "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/2019-chicagojscamp/speakers/jc-hiatt"
   },
   {
-    "id": "recpZFmzqLVuhDvQ4",
-    "name": "Mackenzie Bryant",
-    "about": "iOS Developer, Mobile Technical Track Lead at Women Who Code",
-    "type": "5-10m Lightning Talk",
-    "location": "Chicago, IL",
-    "talkTitle": "How I went from a Bootcamp to leading the global mobile team for WomenWhoCode",
-    "confirmed": true,
-    "imageUrl": "https://res.cloudinary.com/chicagojs/image/upload/t_website/v1563988845/2019-chicagojscamp/speakers/mackenzie-bryant"
-  },
-  {
     "id": "recouDSe6Sak8bkSv",
     "name": "Isabela Moreira",
     "about": "Senior UX Engineer",
